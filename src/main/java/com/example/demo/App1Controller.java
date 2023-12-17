@@ -14,7 +14,7 @@ public class App1Controller {
 
     @GetMapping("/api/v1/app1/hello")
     public String getAppHello() {
-        return "Hello World from App1 (hello)!!!";
+        return "Hello World from App1 (hello)!!! ";
     }
 
 }
