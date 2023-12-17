@@ -11,4 +11,11 @@ public class App2Controller {
     public String app2() {
         return "app2";
     }
+
+    @GetMapping("/app2/featur1")
+    public String feature1() {
+        return "feature1";
+    }
+
+
 }
