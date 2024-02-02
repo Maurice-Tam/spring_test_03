@@ -15,7 +15,7 @@ public class HomeController {
 
      @GetMapping("/azure")
     public String getHelloAzure() {
-        return "Hello Azure!!!";
+        return "Hello Azure!!! (on Github)";
     }
 
     @RequestMapping("/hello-world")
