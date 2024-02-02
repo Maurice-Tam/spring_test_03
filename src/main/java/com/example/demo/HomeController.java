@@ -15,7 +15,7 @@ public class HomeController {
 
     @RequestMapping("/hello-world")
     public String getHelloWorld() {
-        return "Hello World 2!!!";
+        return "Hello World 2 (on Github)!!!";
     }
 
 }
