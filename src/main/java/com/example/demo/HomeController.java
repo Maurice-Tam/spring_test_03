@@ -13,6 +13,11 @@ public class HomeController {
         return "Hello World!!!";
     }
 
+     @GetMapping("/azure")
+    public String getHelloAzure() {
+        return "Hello Azure!!!";
+    }
+
     @RequestMapping("/hello-world")
     public String getHelloWorld() {
         return "Hello World 2 (on Github)!!!";
