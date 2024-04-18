@@ -17,5 +17,10 @@ public class App2Controller {
         return "feature1";
     }
 
+    @GetMapping("/")
+    public String home() {
+        return "Welcome Home!!";
+    }
+
 
 }
