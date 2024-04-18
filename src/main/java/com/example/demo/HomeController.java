@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getHello() {
-        return "Hello World!!!";
+        return "Hello World!!! - April 2024";
     }
 
      @GetMapping("/azure")
