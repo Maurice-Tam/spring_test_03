@@ -23,4 +23,9 @@ public class HomeController {
         return "Hello World 2 (on Github)!!!";
     }
 
+    @RequestMapping("/hello")
+    public String getHellod() {
+        return "Hello World 2 (branch02))!!!";
+    }
+
 }
