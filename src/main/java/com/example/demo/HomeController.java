@@ -29,7 +29,7 @@ public class HomeController {
     }
 
         @GetMapping("/koko")
-    public String getHellod() {
+    public String getHellodK() {
         return "Hello World koko!";
     }
 
