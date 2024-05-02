@@ -28,4 +28,9 @@ public class HomeController {
         return "Hello World 2 (branch02))!!!";
     }
 
+        @GetMapping("/koko")
+    public String getHellod() {
+        return "Hello World koko!";
+    }
+
 }
